@@ -14,6 +14,8 @@
 		511AC64F2364B7DA007277A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511AC64D2364B7DA007277A6 /* LaunchScreen.storyboard */; };
 		511AC6522364B7DA007277A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 511AC6512364B7DA007277A6 /* main.m */; };
 		511AC6682364B964007277A6 /* EuroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 511AC6672364B964007277A6 /* EuroTests.m */; };
+		511AC69B2364BE7D007277A6 /* Euro.m in Sources */ = {isa = PBXBuildFile; fileRef = 511AC69A2364BE7D007277A6 /* Euro.m */; };
+		511AC69F2364C094007277A6 /* Euro.m in Sources */ = {isa = PBXBuildFile; fileRef = 511AC69A2364BE7D007277A6 /* Euro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		511AC6572364B7DA007277A6 /* TDDObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		511AC65D2364B7DA007277A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511AC6672364B964007277A6 /* EuroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EuroTests.m; sourceTree = "<group>"; };
+		511AC6992364BE7D007277A6 /* Euro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Euro.h; sourceTree = "<group>"; };
+		511AC69A2364BE7D007277A6 /* Euro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Euro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		511AC6412364B7D9007277A6 /* TDDObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				511AC6982364BE51007277A6 /* Models */,
 				511AC6422364B7D9007277A6 /* AppDelegate.h */,
 				511AC6432364B7D9007277A6 /* AppDelegate.m */,
 				511AC6452364B7D9007277A6 /* ViewController.h */,
@@ -107,6 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				511AC6672364B964007277A6 /* EuroTests.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		511AC6982364BE51007277A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				511AC6992364BE7D007277A6 /* Euro.h */,
+				511AC69A2364BE7D007277A6 /* Euro.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511AC69B2364BE7D007277A6 /* Euro.m in Sources */,
 				511AC6472364B7D9007277A6 /* ViewController.m in Sources */,
 				511AC6522364B7DA007277A6 /* main.m in Sources */,
 				511AC6442364B7D9007277A6 /* AppDelegate.m in Sources */,
@@ -221,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511AC69F2364C094007277A6 /* Euro.m in Sources */,
 				511AC6682364B964007277A6 /* EuroTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
