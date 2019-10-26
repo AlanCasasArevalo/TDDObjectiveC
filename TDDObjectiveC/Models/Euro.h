@@ -13,5 +13,7 @@
 @property (nonatomic, readonly) NSInteger amount;
 -(id) initWithAmount: (NSInteger) amount;
 
+-(void) times:(NSInteger) multiplier;
+
 @end
 

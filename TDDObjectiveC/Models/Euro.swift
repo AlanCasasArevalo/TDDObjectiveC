@@ -10,11 +10,14 @@ import Foundation
 
 class Euro {
     
-    let amount: Int!
+    var amount: Int!
     
     init(initWithAmount amount: Int) {
         self.amount = amount
     }
     
+    func times (multiplier times: Int) {
+        self.amount *= times
+    }
     
 }
