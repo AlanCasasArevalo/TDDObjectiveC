@@ -19,7 +19,7 @@
     
     Euro *euro = [[Euro alloc] initWithAmount:5];
     Euro *total = [euro times:2];
-    XCTAssertEqual(total, 10, @"5*2 should be 10");
+    XCTAssertEqual(total.amount, 10, @"5*2 should be 10");
     
 }
 

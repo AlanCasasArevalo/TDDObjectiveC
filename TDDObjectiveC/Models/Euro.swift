@@ -16,8 +16,19 @@ class Euro {
         self.amount = amount
     }
     
-    func times (multiplier times: Int) {
-        self.amount *= times
+    func times (multiplier times: Int) -> Euro {
+        let newEuro = Euro(initWithAmount: self.amount * times)
+        return newEuro
     }
-    
+
+}
+
+extension Euro: Equatable {
+    static func == (lhs: Euro, rhs: Euro) -> Bool {
+        if lhs == rhs {
+            return true
+        } else {
+            return false
+        }        
+    }
 }
